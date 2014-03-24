@@ -1,0 +1,6 @@
+# Ansible settings
+export ANSIBLE_HOSTS=/home/myuser/devel/ate/hosts
+
+# Twilio account keys
+export TWILIO_ACCOUNT_SID=''
+export TWILIO_AUTH_TOKEN=''
