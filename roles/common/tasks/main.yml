@@ -1,3 +1,5 @@
 ---
 # this playbook contains the main tasks we want to run
-
+- name: download a .tar.gz file
+  get_url: url={{ site_tarball }}
+           dest={{ file_dest }}

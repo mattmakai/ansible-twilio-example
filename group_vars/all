@@ -1,3 +1,4 @@
 ---
 # variables applicable to all host groups
 site_tarball: https://github.com/makaimc/letshackdc.github.io/tarball/master
+file_dest: /home/matt/devel/py/letshackdc.tar.gz
