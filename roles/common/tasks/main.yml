@@ -16,5 +16,4 @@
             msg="Failed to download file from {{ site_tarball }}." 
             from_number={{ twilio_number }}
             to_number={{ alert_number }}
-  when: download_file.stat.isfile is not defined or
-        download_file.stat.isfile == false
+  when: not download_file.stat.exists
