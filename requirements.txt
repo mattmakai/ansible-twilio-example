@@ -1,2 +1,2 @@
-# until Ansible 1.6 is released we need the dev branch
-git+git://github.com/ansible/ansible.git
+# Ansible 1.6+ required
+Ansible==1.6.1

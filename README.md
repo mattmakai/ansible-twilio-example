@@ -1,12 +1,6 @@
 # Ansible Twilio example
 This project is an example for how to use the Twilio module in 
-Ansible core notifications package which is part of the upcoming 
-Ansible 1.6 release.
-
-*Note*: this playbook requires the 
-[Ansible devel](https://github.com/ansible/ansible) branch until 1.6 is
-officially released.
-
+Ansible core notifications package which is part of the Ansible 1.6+ release.
 
 ## Walkthrough
 Check the tags 
